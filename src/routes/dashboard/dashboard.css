@@ -1,0 +1,85 @@
+.dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    flex: 1;
+    min-width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.card-header h2 {
+    font-size: 18px;
+    color: #444;
+}
+
+.icon {
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon.blue {
+    background-color: #e0f0ff;
+    color: #007bff;
+}
+
+.icon.purple {
+    background-color: #f3e8ff;
+    color: #6f42c1;
+}
+
+.count {
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    transition: width 0.8s ease;
+}
+
+.progress-fill.blue {
+    background-color: #007bff;
+}
+
+.progress-fill.purple {
+    background-color: #6f42c1;
+}
